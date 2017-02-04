@@ -1,0 +1,11 @@
+[package]
+name = "gamesman"
+version = "0.1.0"
+authors = ["Christopher Sumnicht <csumnicht@berkeley.edu>"]
+
+[dependencies]
+cask = "0.4.0"
+
+[lib]
+name = "gamesman"
+path = "src/lib.rs"
